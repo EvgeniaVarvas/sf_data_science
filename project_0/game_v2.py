@@ -17,7 +17,6 @@ def random_predict(number:int=1)->int:
         count +=1        
         mid_number = int((min_number + max_number)/2)
         predict_number = np.random.randint(min_number, max_number)
-        print(predict_number)
         if number == predict_number:
             break            
         elif number < mid_number:
